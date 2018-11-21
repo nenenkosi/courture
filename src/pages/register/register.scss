@@ -1,0 +1,70 @@
+page-register {
+    h1{
+        position: relative;
+        font-size: 8vh;
+        top: 10%;
+        
+    }
+    .bck{
+        background-color: rgb(220, 220, 220);
+        background-image: url("../../assets/icon//line\ design.svg");
+        //background-image: url("../../assets/imgs/classic\ man.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat
+     }
+   
+    .txt1{
+        color: black;
+        border-radius: 50px;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    // .btn{
+    //     position: absolute;
+    //     top: 82%;
+    //     // left: 35%;
+    //     // top: 50%;
+    //     left: 50%;
+    //     -webkit-transform: translate(-50%, -50%);
+    //     -moz-transform: translate(-50%, -50%);
+    //     -o-transform: translate(-50%, -50%);
+    //     -ms-transform: translate(-50%, -50%);
+    //     transform: translate(-50%, -50%);
+    // }
+    .up{
+        position: absolute;
+         top: 90%;
+         left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .av{
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        border-radius: 100px;
+        top: 35%;
+        left: 50%;
+       -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+       -ms-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
+    }
+    #asd{
+        position: fixed;
+        top: 80%;
+        left: 50%;
+       -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+       -ms-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
+       width: 82%;
+    }
+
+}

@@ -1,0 +1,41 @@
+<!-- <ion-header text-center>
+  <ion-navbar color="primary">
+    <ion-title> Hotel</ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-content class="bck" >
+    <br><br><br><br><br><br><br><br><br>
+    
+    <div class="sticky">COUTURE</div>
+<br><br><br><br><br><br><br>
+  <ion-card class="ion-card"*ngFor="let i of arr ; let a =index" (click)='presentModal(a)'>
+    <img class="img" src="{{i.pic}}"/>
+    <ion-card-content>
+      <ion-card-title>
+       <h1>{{i.name}}</h1>
+        </ion-card-title>
+      <p>
+        {{i.desctiption}}
+      </p>
+    </ion-card-content>
+    <!-- <ion-row>
+    <ion-col center text-center>
+        <p>Price</p>
+        <h5>{{i.price}}</h5>
+    </ion-col>
+    <ion-col>
+          <p>Reviews</p>
+        <h5>7.5 <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon>
+        </h5>
+    </ion-col>
+    <ion-col center text-center>
+      <ion-note>
+          <button ion-button round color="dark" (click)='presentModal(a)'>
+              <div>Hire</div>
+            </button>
+      </ion-note> 
+    </ion-col> 
+  </ion-row> -->
+  </ion-card>
+</ion-content>

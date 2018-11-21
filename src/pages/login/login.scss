@@ -1,0 +1,115 @@
+page-login {
+    h1{
+        position: relative;
+        font-size: 8vh;
+        top: 15%;
+        color: #095849  
+    }
+    p{
+        position: relative;
+        top: 12%;
+        color: #095849;
+        font-family: cursive 
+    }
+    .bck{
+       background-color: rgb(220, 220, 220);
+       background-image: url("../../assets/icon//line\ design.svg");
+       //background-image: url("../../assets/imgs/classic\ man.jpg");
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat
+    }
+    
+    .txt{
+        position: relative;
+        top: 25%; 
+    }
+    .txt1{
+        color: black;
+        border-radius: 50px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .btn{
+        position: relative;
+        top: 30%;
+    }
+    .line1{
+        position: relative;
+        border: 1px solid rgba(255, 255, 255, 0);
+        border-radius: 50px;
+        height: 6vh;
+        background-image:linear-gradient(to right, #ffba3c , #ed6aff);
+        transform: rotate(-34deg);
+        right: 15%
+    }
+    .line2{
+        position: relative;
+        border: 1px solid rgba(255, 255, 255, 0);
+        border-radius: 50px;
+        height: 6vh;
+        background-image:linear-gradient(to right, #57c5fb , #ed6aff);
+        transform: rotate(-34deg);
+        left: 10%;
+        bottom: 10%
+      
+    }
+    .line3{
+        position: relative;
+        border: 1px solid rgba(255, 255, 255, 0);
+        border-radius: 50px;
+        height: 6vh;
+        background-image:linear-gradient(to right, #ed6aff , #36ff5c);
+        transform: rotate(-34deg);
+        right: 15%;
+        // top: 5%
+      
+    }
+    .line4{
+        position: relative;
+        border: 1px solid rgba(255, 255, 255, 0);
+        border-radius: 50px;
+        height: 6vh;
+        background-image:linear-gradient(to right, #36ff5c , #57c5fb);
+        transform: rotate(-34deg);
+        margin-top: 10%;
+        margin-bottom: 10%;
+        left: 15%;
+        bottom: 1%
+    }
+
+    .line8{
+        position: relative;
+        border: 1px solid rgba(255, 255, 255, 0);
+        border-radius: 50px;
+        height: 6vh;
+        background-image:linear-gradient(to right, #36ff5c , #57c5fb);
+        transform: rotate(-34deg);
+        margin-top: 5%;
+        margin-bottom: 10%;
+        bottom: 1%
+        
+    }
+    .line9{
+        position: relative;
+        border: 1px solid rgba(255, 255, 255, 0);
+        border-radius: 50px;
+        height: 6vh;
+        background-image:linear-gradient(to right, #ed6aff , #36ff5c);
+        transform: rotate(-34deg);
+        margin-top: 5%;
+        bottom: -5%;
+        right: -20%;
+    
+    }
+    .down{
+        position: relative;
+        top: -20%;
+        left: 18%;
+    }
+    .top{
+        position: relative;
+        top: -75%;
+        left: -5%; 
+    }
+}

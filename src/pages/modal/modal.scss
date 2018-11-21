@@ -1,0 +1,69 @@
+page-modal {
+    .bck{
+        background-color: rgb(240, 240, 240)
+    }
+    .imgs{
+        height: 20vh;
+        padding: 5px;
+
+    }
+    .card{
+        position: relative;
+         left: -10%;
+         bottom: 50%;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+         width: 104vw
+
+    }
+    .imgbck{
+    
+         position: relative;
+         left: 20%;
+         top: -2vh;
+         height: 60vh;
+         width: 95%;
+        
+    }
+.name{
+
+     position: absolute;
+     left: 18%;
+     top: 20%;
+     font-size: 4em;
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+ }
+ .contents{
+     display: inline-block;
+    
+ }
+
+// .btn{
+//     position: relative;
+//     margin-top: 80%;
+//     left: 35%;
+// }
+.bottom{
+    position: relative;
+    bottom: 6%;
+ 
+  
+}
+
+h1{
+    text-align: center;
+}
+.segment-ios .segment-button{
+    border-color: #095849;
+    color: #095849;  
+}
+.segment-ios .segment-button.segment-activated{
+    background-color: #095849
+}
+ion-segment{
+    padding: 3%
+}
+    
+
+}

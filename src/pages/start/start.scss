@@ -1,0 +1,23 @@
+page-start {
+    .bck{
+        background-image: url("../../assets/imgs/classic man.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    ion-icon{
+        position: absolute;
+        border: 15px solid #ffdfc1;
+        background-color: #ffdfc1;
+        right: -45%;
+    }
+    h1{
+        position: relative;
+        top: 50%;
+        font-size: 2.9em;
+        letter-spacing: 6px;
+        text-align: center;
+        color: white 
+    }
+
+}
